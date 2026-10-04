@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this until loop keeps running until the condition fails so it will print best schools 10 times once it -eq 10 it  stops
+i=0
+until [ $i -eq 10 ]; do
+   echo "Best School"
+   i=$((i + 1))
+done
