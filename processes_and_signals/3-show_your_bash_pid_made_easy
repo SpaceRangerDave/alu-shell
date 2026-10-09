@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#this scritp displays the PID and the name of the  bash processes
+pgrep -x bash | while read -r pid
+do
+    echo "$pid bash"
+done
